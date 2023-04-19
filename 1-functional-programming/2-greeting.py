@@ -12,7 +12,6 @@ class Greeting:
         for name in names:
             self.greet(name)
 
-
 def main():
 		current_time = datetime.now()
 		if current_time.hour < 12:
